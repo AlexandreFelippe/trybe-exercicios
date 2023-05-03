@@ -1,10 +1,11 @@
-let nota = 85;
-if (nota >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else if (nota < 60) {
-    console.log("Infelizmente, você reprovou");
-}
+let a = 200
+let b = 160
+let c = 190
+
+if (a > b && a > c){
+    console.log("a é o maior dos três números");
+    }    else if (b > a && b > c) {
+    console.log("b é o maior dos três números");
+    }else if (c > a && c > b) {
+console.log("c é o maior dos três números");
+    }

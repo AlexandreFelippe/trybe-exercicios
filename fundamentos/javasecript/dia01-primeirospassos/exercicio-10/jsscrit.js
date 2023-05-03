@@ -1,10 +1,10 @@
-let nota = 85;
-if (nota >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else if (nota < 60) {
-    console.log("Infelizmente, você reprovou");
+let valorCusto = 120;
+let valorVenda = 150;
+
+if (valorCusto >= 0 && valorVenda >= 0) {
+    let valorCustoTotal = valorCusto * 1.2;
+    let lucro = (valorVenda - valorCustoTotal) * 1000;
+    console.log(lucro);
+} else {
+    console.log("Erro, valores menores que zero");
 }

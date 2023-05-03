@@ -1,10 +1,18 @@
-let nota = 85;
-if (nota >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else if (nota < 60) {
-    console.log("Infelizmente, você reprovou");
+
+let nota = 100;
+
+    if (nota < 0 || nota > 100) {
+    console.log("ERRO");
+}   else if (nota >= 90) {
+    console.log("A");
+}   else if (nota >= 80) {
+    console.log("B");
+}   else if (nota >= 70) {
+    console.log("C");
+}   else if (nota >= 60) {
+    console.log("D");
+}   else if (nota >= 50) {
+    console.log("E");
+}   else {
+    console.log("F");
 }

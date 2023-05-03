@@ -1,6 +1,9 @@
-let myName = "Alexandre";
-let birthCity = "Belo Horizonte";
-let birthYear = 1974;
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+let a = 8;
+let b = 3;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+

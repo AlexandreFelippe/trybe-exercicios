@@ -1,8 +1,8 @@
-let base = 5;
-let height = 8;
-let area = base * height
-console.log(area);
-let perimeter = base * 2 + height *2
-console.log(perimeter);
+let a = 208
+let b = 360
 
-
+if (a > b) {
+    console.log("variável a é maior que b");
+} else {
+    console.log("variável b é maior que a");
+}

@@ -1,10 +1,12 @@
-let nota = 85;
-if (nota >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else if (nota < 60) {
-    console.log("Infelizmente, você reprovou");
+let a = 90
+let b = 50
+let c = 40
+let confirma = a + b + c
+console.log(confirma);
+if (a + b + c === 180) {
+    console.log ("true");
+} else if (a + b + c !== 180) {
+    console.log("false");
+} else if (a || b || c < 0) {
+    ("ERRO");
 }

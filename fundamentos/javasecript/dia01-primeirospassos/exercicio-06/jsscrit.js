@@ -1,10 +1,24 @@
-let nota = 85;
-if (nota >= 80) {
-    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas");
-}
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else if (nota < 60) {
-    console.log("Infelizmente, você reprovou");
-}
+let chessPiece = 'cavalo';
+
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log('Rei: Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo: Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha: Diagonal, horizontal e vertical.');
+    break;
+  case 'cavalo':
+    console.log('Cavalo: "L" pode pular sobre as peças.');
+    break;
+  case 'torre':
+    console.log('Torre: Horizontal e vertical.');
+    break;
+  case 'peão':
+    console.log("Peão: Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida!');
+};
