@@ -1,9 +1,8 @@
-let numbers = [];
+//Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
 
-for (let index = 1; index <= 25; index += 1) {
-    numbers.push(index);
-}
+let word = 'banana';
+let reverseWord = '';
 
-for (let index = 0; index < numbers.length; index +=1 ) {
-    console.log(numbers[index] / 2);
-};
+reverseWord = word.split('').reverse().join('');
+
+console.log(reverseWord);

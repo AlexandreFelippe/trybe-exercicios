@@ -1,10 +1,11 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let smallestNumber = numbers[0];
+//Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
 
+let number = [];
 
-for (let index = 1; index < numbers.length; index += 1) {
-    if (numbers[index] < smallestNumber) {
-        smallestNumber = numbers[index];
-      }
-};
-    console.log(smallestNumber);
+for (index = 0; index <= 25; index = index += 1 ) {
+    number.push(index)
+    }
+
+    for (let index = 0; index < number.length; index += 1) {
+        console.log(number[index] / 2);
+      };

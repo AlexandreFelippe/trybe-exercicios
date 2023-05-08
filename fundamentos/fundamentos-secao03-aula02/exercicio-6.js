@@ -1,14 +1,9 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let odd = 0;
+//Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado
 
-for (let index = 0; index < numbers.length; index += 1) {
-if (numbers[index] %2 !== 0) {
-    odd += 1
+let number = [];
+
+for (index = 0; index <= 25; index = index += 1 ) {
+    number.push(index)
     }
-}
 
-if (odd === 0) {
-    console.log("nenhum valor ímpar encontrado)")
-} else{
-console.log(odd);
-}
+console.log(number);
