@@ -153,5 +153,5 @@ const findPeopleByState = (state) => {
   }
 };
 
-console.log(findPeopleByState('SP')); // Fluxo completo
-console.log(findPeopleByState('AC')); // Fluxo de exceção
+console.log(findPeopleByState('SP'));
+console.log(findPeopleByState('AC'));
